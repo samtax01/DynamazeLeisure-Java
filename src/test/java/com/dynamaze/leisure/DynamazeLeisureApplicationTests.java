@@ -8,6 +8,7 @@ class DynamazeLeisureApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
