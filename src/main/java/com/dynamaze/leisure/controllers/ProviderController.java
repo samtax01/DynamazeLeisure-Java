@@ -91,7 +91,7 @@ public class ProviderController {
         return new ApiResponse<>(providerRepository.getAllLeisureActivity(), "Success");
     }
 
-    @Scheduled(cron = "* * * * 7 *")
+    @Scheduled(cron = "0 0 * * sat")
     @GetMapping(path = "/executeLeisureActivity", produces = {MediaType.APPLICATION_JSON_VALUE})
     public ApiResponse<List<LeisureActivity>> executeLeisureActivity() {
         return new ApiResponse<>(providerRepository.getAllLeisureActivity(), "Success");
