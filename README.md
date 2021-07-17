@@ -1,5 +1,7 @@
 # DynamazeLeisure-Java
 
+### Models Breakdown
+
 ```
 Provider (Endpoint: ViewProvider with list of activites)
 	id
